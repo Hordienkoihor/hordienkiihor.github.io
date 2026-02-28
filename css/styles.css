@@ -7,6 +7,17 @@
     font-variation-settings: "wdth" 100;
 }
 
+.open-sans-donation {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-decoration: none;
+    color:darkslategray;
+
+}
+
 .open-sans-pre {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -14,4 +25,40 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
     color:darkslategray;
+}
+
+.open-sans-p {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color:darkslategray;
+}
+
+.open-sans-email {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color:silver;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 10px;
+    padding: 20px;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
 }
